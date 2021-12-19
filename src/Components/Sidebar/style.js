@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Wrap = styled.div`
   width: 260px;
-  height: 454px;
+  height: 440px;
   background: #f7f8fa;
 `;
 
