@@ -9,6 +9,8 @@ import Collections from '../Collections';
 import SubCollections from '../SubCollections';
 import Trending from '../Trending';
 import Container from '../Container';
+import Offers from '../Offers';
+import Products from '../Products';
 
 export default class index extends Component {
     render() {
@@ -26,7 +28,9 @@ export default class index extends Component {
               <SubCollections />
             </Main.Collection>
             <Trending />
-            <Container/>
+            <Container />
+            <Offers />
+            <Products/>
           </div>
         );
     }
